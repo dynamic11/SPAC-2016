@@ -659,10 +659,6 @@ box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
     padding: 40px 20px; 
     background-color: #0B5172; 
     margin: 0 ;
-    
-        -webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
 }
 .about-tab-3{
     color: #fff;
@@ -671,10 +667,7 @@ box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
     padding: 40px 20px; 
     background-color: #CC0033;
     margin: 0 ;
-    
-        -webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75); 
+ 
 }
 
 .tab{
@@ -682,4 +675,53 @@ box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
 }
 .about-tabs{
     margin-top: -10px;
+}
+
+.shadow{
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75); 
+}
+
+.gold-sponsors{
+    max-width: 100px;
+}
+.red{
+    background-color: red;
+}
+
+#gold-patrons{
+    margin: 40px 0 60px 0;
+}
+    #gold-patrons h3{
+        margin: 0px 0 20px 0;
+    }
+    #gold-patrons .row{
+        margin: 20px 0 0 0;
+        text-align: center
+    }
+
+#silver-patrons{
+    margin: 80px 0 60px 0;
+}
+    #silver-patrons h3{
+        margin: 0 0 30px 0;
+    }
+    #silver-patrons .row{
+        margin: 50px 0 0 0;
+        text-align: center
+    }
+#bronze-patrons{
+    margin: 80px 0 60px 0;
+}
+    #bronze-patrons h3{
+        margin: 0 0 30px 0;
+    }
+    #bronze-patrons .row{
+        margin: 50px 0 0 0;
+        text-align: center
+     }
+
+.sub-header{
+    margin-top: -20px;
 }
