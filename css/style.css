@@ -57,6 +57,13 @@ hr {
 	margin: 0px;
 	background: transparent;
 }
+
+@media (max-width:970px) {
+   .page-head {
+        height: 450px;
+    }
+
+}
 .header-logo {
    height:100%;
    width: 100%;
