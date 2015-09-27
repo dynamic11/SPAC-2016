@@ -1,0 +1,202 @@
+/*==========================general==============================*/
+.center-block {
+  margin: 0 auto;
+}
+
+.text-left {
+  text-align: left !important; }
+
+.text-right {
+  text-align: right !important; }
+
+.text-center {
+  text-align: center !important; 
+ }
+
+.shadow{
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+}
+body{
+    background-color: #D3D3D3; 
+}
+
+hr {
+    width: 80%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+}
+
+.section h1{
+    margin-bottom: 30px;
+}
+.section{
+    margin-bottom: 60px; 
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
+
+
+
+
+
+
+/*==========================cover photo==============================*/
+.page-head{
+	background-size: cover;
+	height: 520px;
+	padding: 0px 0 0 0px;
+	margin: 0px;
+	background: transparent;
+}
+.header-logo {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+.header-logo td{ 
+     vertical-align: middle;
+     text-align: center;
+}
+.header-logo img{ 
+     width: 50%;
+     max-width: 600px;
+     padding-top:80px;
+     
+}
+.body-box{
+    margin-top: -60px;
+    z-index: 99;
+    background-color: #fff; 
+    padding: 40px 40px;
+    border-radius: 8px;
+}
+
+/*==========================Page header-info icons==============================*/
+.circle-icon {
+    background: #ffc0c0;
+    padding:20px 20px 20px 20px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-bottom:5px;
+    margin-top: 20px;
+}
+
+.page-header{
+    margin-top:  0px;
+    margin-bottom:  50px;
+}
+.calender-icon{
+    background-color: #CC0033;
+    color: #fff;
+    
+}
+.location-icon{
+    background-color: #E37222;
+    color: #fff;
+}
+.ticket-icon{
+    background-color: #66CC33;
+    color: #fff;
+}
+.event-info-icons a h4{
+    font-size: 18px; 
+    color: #2c3e50;
+    margin-bottom: 5px; 
+}
+.event-info-icons a p{
+    font-size: 15px;
+    margin-top: 0px; 
+    color: #778899;
+}
+.event-info-icons a{
+   text-decoration: none; 
+}
+
+/*==========================About==============================*/
+.about p{
+    padding: 30px 20px 20px 30px;
+    margin: 25px 0px 25px 0px;
+    min-height: 250px;
+    color: #fff;
+}
+.about h1{
+    margin-bottom: 5px;
+}
+
+.box-1 p{
+    background-color: #669933;
+}
+
+.box-2 p{
+    background-color: #0B5172;
+}
+.box-3 p{
+    background-color: #CC0033;
+}
+
+/*==========================Speaker==============================*/
+.speaker-box h1 {
+    color: #778899;
+    font-size: 20px;
+}
+.speaker-box h4 {
+    color: #778899;
+    font-size: 15px;
+    margin-bottom: 20px; 
+}
+.speaker-box p{
+    margin: 0px 5%;
+}
+.img-circle {
+   width: 45%;
+}
+.speaker-box{
+    margin-top: 30px;
+}
+
+@media (max-width: 4000px) {
+    .img-circle {
+        width: 35%;
+    }
+}
+@media (max-width:1200px) {
+    .img-circle {
+        width: 55%;
+    }
+
+}
+@media (max-width:770px) {
+    .img-circle {
+        width: 40%;
+    }
+
+}
+
+@media (max-width:470px) {
+    .img-circle {
+        width: 55%;
+    }
+
+}
+
+/*==========================patron==============================*/
+.patrons-row img{
+    width:  80%;
+    max-width: 300px;
+    margin: 20px;
+}
+.patrons-row h3 {
+    color:#778899;;
+}

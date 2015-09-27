@@ -1,315 +1,305 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>SPAC | 2016</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <title>Bootswatch: Flatly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./font-awesome-4.4.0/css/font-awesome.min.css">
+    <script src="./javascript/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="./javascript/javascript.js" ></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-</head><!--/head-->
+    <script>
 
-<body data-spy="scroll" data-target="#navbar" data-offset="0">
-    <header id="header" role="banner">
-        <div class="container">
-            <div id="navbar" class="navbar navbar-default">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"></a>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#info">Info</a></li>
-                        <li><a href="#about">About SPAC</a></li>
-                        <li><a href="#speakers">Speakers</a></li>
-                        <li><a href="#tickets">Purchase Tickets</a></li>
-                        <li><a href="#patrons">Our Patrons</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                    </ul>
-                </div>
+     var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23019901-1']);
+      _gaq.push(['_setDomainName', "bootswatch.com"]);
+        _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+
+    </script>
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="../" class="navbar-brand">Bootswatch</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Themes <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="../default/">Default</a></li>
+                <li class="divider"></li>
+                <li><a href="../cerulean/">Cerulean</a></li>
+                <li><a href="../cosmo/">Cosmo</a></li>
+                <li><a href="../cyborg/">Cyborg</a></li>
+                <li><a href="../darkly/">Darkly</a></li>
+                <li><a href="../flatly/">Flatly</a></li>
+                <li><a href="../journal/">Journal</a></li>
+                <li><a href="../lumen/">Lumen</a></li>
+                <li><a href="../paper/">Paper</a></li>
+                <li><a href="../readable/">Readable</a></li>
+                <li><a href="../sandstone/">Sandstone</a></li>
+                <li><a href="../simplex/">Simplex</a></li>
+                <li><a href="../slate/">Slate</a></li>
+                <li><a href="../spacelab/">Spacelab</a></li>
+                <li><a href="../superhero/">Superhero</a></li>
+                <li><a href="../united/">United</a></li>
+                <li><a href="../yeti/">Yeti</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="../help/">Help</a>
+            </li>
+            <li>
+              <a href="http://news.bootswatch.com">Blog</a>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Flatly <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="download">
+                <li><a href="http://jsfiddle.net/bootswatch/jmg3gykg/">Open Sandbox</a></li>
+                <li class="divider"></li>
+                <li><a href="./bootstrap.min.css">bootstrap.min.css</a></li>
+                <li><a href="./bootstrap.css">bootstrap.css</a></li>
+                <li class="divider"></li>
+                <li><a href="./variables.less">variables.less</a></li>
+                <li><a href="./bootswatch.less">bootswatch.less</a></li>
+                <li class="divider"></li>
+                <li><a href="./_variables.scss">_variables.scss</a></li>
+                <li><a href="./_bootswatch.scss">_bootswatch.scss</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
+            <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">WrapBootstrap</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Cover -->
+    <div class="page-head" data-parallax="scroll" data-image-src="test.jpg">
+      <table class="header-logo">
+          <tr>
+             <td><img src="pictures/logos/Final/ieeeOttawaEditChapter.png" alt="chapter logo" id="logo"></img></td>
+          <tr>
+        </table>
+    </div>
+
+    <div class="container body-box">
+      <div class="page-header" id="banner">
+        <div class="row">
+          <div class="col-lg-4 col-sm-4 col-xs-6 text-center event-info-icons">
+            <a href="#">
+                <i class="fa fa-calendar fa-2x circle-icon shadow calender-icon"></i>
+                <h4>January 29, 2015</h4>
+                <p>6:00 PM</p>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-4 col-xs-6 text-center event-info-icons">
+            <a href="https://www.google.ca/maps/place/Hellenic+Meeting+%26+Reception+Centre/@45.3714971,-75.7052977,18.75z/data=!4m2!3m1!1s0x4cce066ed58c1347:0xa30076f96c916d7c">
+                <i class="fa fa-map-marker fa-2x circle-icon shadow location-icon"></i>
+                <h4>Hellenic Meeting and Reception Centre</h4>
+                <p>1315 Prince of Wales Drive, Ottawa, </br> Ontario, K2C 1N2</p>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-4 col-xs-12 text-center event-info-icons">
+            <a href="#">
+                <i class="fa fa-ticket fa-2x circle-icon shadow ticket-icon"></i>
+                <h4>Click Here to Buy Online</h4>
+                <p>Or visit your local IEEE student branch</br> for tickets today!</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr></hr>
+      <!-- Navbar
+      ================================================== -->
+     
+     <div class="row section about">
+         <h1 class="text-center">About</h1>
+         <div class="col-lg-4 col-md-4 col-sm-4 text-center box-1">
+             <p class="shadow">IEEE Student Professional Awareness Conference (SPAC) is a formal dinner event that aims to bridge the gap between students and their career goals. SPAC offers students and employers a unique opportunity to network with one another in a professional environment along with professionals and academics representing the field of Engineering.</p>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-4 text-center box-2">
+             <p class="shadow">Our attendees include 175+ local students from the engineering and computer science streams at Carleton University, the University of Ottawa, and Algonquin College. Meet the brightest upcoming talent from Ottawa's leading schools</p>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-4 text-center box-3">
+             <p class="shadow">For the last 8 years, IEEE SPAC has been organized by the IEEE Student Branches of Carleton University, University of Ottawa, and Algonquin College</p>
+         </div>
+      </div>
+      <hr></hr>
+
+      <!-- speakers
+      ================================================== -->
+      <div class="row section speaker">
+         <h1 class="text-center">Speaker</h1>
+         <div class="col-lg-6 col-md-6 col-sm-6 text-center speaker-box">
+             <img class="shadow img-circle" src="./speaker/team1.jpg" alt="speaker 1"></img>
+             <h2>Agnes Smith</h2>
+             <h4>Chief Executive Officer, Chairman & Founder of Pythian</h4>
+             <p>Paul Vallee is an experienced entrepreneur whose passion for data and for excellence led to the foundation of Pythian in 1997. Paul started his career as a data scientist, continued as a systems architect, and by the age of 25 had started his fourth company Pythian. From two employees and a couple of laptops, Pythian has now grown to more than 250 people with offices in North America, Europe, and Asia. As Chief Executive Officer, Paul continues to lead Pythian as a center of excellence for expert, outsourced data services for the world�s mission-critical data infrastructures</p>
+         </div>
+         <div class="col-lg-6 col-md-6 col-sm-6 text-center speaker-box">
+             <img class="shadow img-circle" src="./speaker/team2.jpg" alt="speaker 2"></img>
+             <h2>Donald Ford</h2>
+             <h4>Senior Vice President</h4>
+             <p>A Carleton graduate himself (MEng/74 and PhD/76), Jim has supervised more than 109 graduate students, always encouraging them to build something in the real world before graduation. Over his prolific career of more than 38 years, Jim has authored or co-authored 46 refereed journal papers and 156 refereed conference papers, and has 24 issued patents. Applying his radio and electronics engineering experience to more than academia, Jim has acted as a technical advisor/program director for many private-sector companies and has pursued joint research with Defence Research & Development Canada and the Communications Research Centre.</p>
+         </div>
+      </div>
+      <hr></hr>
+
+    <!-- Tickets
+      ================================================== -->
+     
+     <div class="row section tickets">
+         <h1 class="text-center">Tickets</h1>
+         <div class="col-lg-12 text-center">
+             <h3>Visit your local IEEE student branch for tickets today!</h3>
+             <p>(SITE 4026 uOttawa / T206B Algonquin College / ME4238 Carleton University)</p>
+         </div>
+      </div>
+      <hr></hr>
+
+        
+      <!-- Tickets
+      ================================================== -->
+     <div class="patrons section">
+          <div class="row patron-header">
+             <h1 class="text-center">Our Patrons</h1>
+             <div class="col-lg-12 text-center">
+                 <h3>SPAC would not be possible without the support of our patrons</h3>
+             </div>
+          </div>
+          <div class="row patrons-row">
+              <h3 class="text-center">Gold Patrons</h3>
+              <div class="col-lg-4 text-center">
+                <img src="./sponsors/shopify.png" alt="Shopify">
+              </div>
+              <div class="col-lg-4 text-center">
+                <img src="./sponsors/ieee-ottawa-section.png" alt="ieee-ottawa">
+              </div>
+              <div class="col-lg-4 text-center">
+                <img src="./sponsors/carleton-fed.png" alt="">
+              </div>
+          </div>
+          <div class="row patrons-row">
+              <h3 class="text-center">Silver Patrons</h3>
+              <div class="col-lg-4 text-center">
+                <img src="./sponsors/pythian.png" alt="Pythian">
+              </div>
+              <div class="col-lg-4 text-center">
+                <img src="./sponsors/fidus.png" alt="ieee-ottawa">
+              </div>
+              <div class="col-lg-4 text-center">
+                <img src="./sponsors/algonquin-logo.png" alt="">
+              </div>
+          </div>
+         <div class="row patrons-row">
+              <div class="col-lg-6 text-center">
+                <img src="./sponsors/carleton-doe.png" alt="Pythian">
+              </div>
+              <div class="col-lg-6 text-center">
+                <img src="./sponsors/carleton-sce.png" alt="ieee-ottawa">
+              </div>
+          </div>
+         <div class="row patrons-row">
+              <h3 class="text-center">Bronze Patrons</h3>
+              <div class="col-lg-4 text-center">
+                <img src="./sponsors/alcatel-lucent.png" alt="Pythian">
+              </div>
+              <div class="col-lg-4 text-center">
+                <img src="./sponsors/solana.png" alt="ieee-ottawa">
+              </div>
+              <div class="col-lg-4 text-center">
+                <img src="./sponsors/carleton-coop.png" alt="">
+              </div>
+          </div>
+         <div class="row patrons-row">
+              <div class="col-lg-6 text-center">
+                <img src="./sponsors/cusa.png" alt="Pythian">
+              </div>
+              <div class="col-lg-6 text-center">
+                <img src="./sponsors/gsa.png" alt="ieee-ottawa">
+              </div>
+          </div>
+      </div>
+      <hr></hr>
+      
+
+  
+
+      <div id="source-modal" class="modal fade">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Source Code</h4>
             </div>
-        </div>
-    </header><!--/#header-->
-
-    <section id="main-slider" class="carousel">
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="container">
-                    <div class="carousel-content">
-                        <h1>Free Onepage Theme</h1>
-                        <p class="lead">Xeon is the best free onepage responsive theme available arround the globe<br>Download it right now for free</p>
-                    </div>
-                </div>
-            </div><!--/.item-->
-            <div class="item">
-                <div class="container">
-                    <div class="carousel-content">
-                        <h1>ShapeBootstrap.net</h1>
-                        <p class="lead">Download free but 100% premium quaility twitter Bootstrap based WordPress and HTML themes <br>from shapebootstrap.net</p>
-                    </div>
-                </div>
-            </div><!--/.item-->
-        </div><!--/.carousel-inner-->
-        <a class="prev" href="#main-slider" data-slide="prev"><i class="icon-angle-left"></i></a>
-        <a class="next" href="#main-slider" data-slide="next"><i class="icon-angle-right"></i></a>
-    </section><!--/#main-slider-->
-
-    <section id="info">
-        <div class="container">
-            <div class="box first">
-                <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="center">
-                            <i class="icon-calendar icon-md icon-color3 shadow"></i>
-                            <h4>Thursday, January 29, 2015</h4>
-                            <p>6:00PM</p>
-                        </div>
-                    </div><!--/.col-md-4-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="center">
-                            <i class="icon-map-marker icon-md icon-color1 shadow"></i>
-                            <h4>Hellenic Meeting and Reception Centre </h4>
-                            <p>1315 Prince of Wales Drive, Ottawa</p>
-                            <p>Ottawa, Ontario, K2C 1N2</p>
-                        </div>
-                    </div><!--/.col-md-4-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="center">
-                            <i class="icon-ticket icon-md icon-color5 shadow"></i>
-                            <h4>Click Here to Buy Online</h4>
-                            <p>Or visit your local IEEE student branch for tickets today! </p>
-                        </div>
-                    </div><!--/.col-md-4-->
-                </div><!--/.row-->
-            </div><!--/.box-->
-        </div><!--/.container-->
-    </section><!--/#services-->
-
-    <section id="about">
-        <div class="container">
-            <div class="box">
-                <div class="center">
-                    <h2 class="section-header">About</h2>
-                        <div class="row about-tabs">
-                            <div class="col-sm-4 tab"><p class="about-tab-1 shadow ">IEEE Student Professional Awareness Conference (SPAC) is a formal dinner event that aims to bridge the gap between students and their career goals. SPAC offers students and employers a unique opportunity to network with one another in a professional environment along with professionals and academics representing the field of Engineering.</p></div>
-                            <div class="col-sm-4 tab"><p class="about-tab-2 shadow ">Our attendees include 175+ local students from the engineering and computer science streams at Carleton University, the University of Ottawa, and Algonquin College. Meet the brightest upcoming talent from Ottawa's leading schools.</p></div>
-                            <div class="col-sm-4 tab"><p class="about-tab-3 shadow ">For the last 8 years, IEEE SPAC has been organized by the IEEE Student Branches of Carleton University, University of Ottawa, and Algonquin College</p></div>
-                        </div>
-                </div><!--/.center-->  
-            </div><!--/.box-->
-        </div><!--/.container-->
-    </section><!--/#about-->
-
-    <section id="speakers">
-        <div class="container">
-            <div class="box">
-                <div class="center">
-                 <h2 class="section-header">Speakers</h2>
-                <div class="scale">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="member">
-                                        <p><img class=" shadow img-responsive img-thumbnail img-circle speaker-image" src="images/team1.jpg" alt="" ></p>
-                                        <h3>Agnes Smith</br><small class="designation">Chief Executive Officer, Chairman & Founder of Pythian</small></h3>
-                                        <p>Paul Vallée is an experienced entrepreneur whose passion for data and for excellence led to the foundation of Pythian in 1997. Paul started his career as a data scientist, continued as a systems architect, and by the age of 25 had started his fourth company—Pythian. From two employees and a couple of laptops, Pythian has now grown to more than 250 people with offices in North America, Europe, and Asia. As Chief Executive Officer, Paul continues to lead Pythian as a center of excellence for expert, outsourced data services for the world’s mission-critical data infrastructures.</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="member">
-                                        <p><img class="shadow img-responsive img-thumbnail img-circle speaker-image" src="images/team2.jpg" alt="" ></p>
-                                        <h3>Donald Ford</br><small class="designation">Senior Vice President</small></h3>
-                                        <p>A Carleton graduate himself (MEng/74 and PhD/76), Jim has supervised more than 109 graduate students, always encouraging them to build something in the real world before graduation. Over his prolific career of more than 38 years, Jim has authored or co-authored 46 refereed journal papers and 156 refereed conference papers, and has 24 issued patents. Applying his radio and electronics engineering experience to more than academia, Jim has acted as a technical advisor/program director for many private-sector companies and has pursued joint research with Defence Research & Development Canada and the Communications Research Centre.</p>
-                                    </div>
-                                </div>        
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.carousel-->
-              </div><!--/.center-->
-            </div><!--/.box-->
-        </div><!--/.container-->
-    </section><!--/#speaker-->
-
-    <section id="tickets">
-        <div class="container">
-            <div class="box">
-                <div class="center">
-                    <h2 class="section-header">Tickets</h2>
-                    <p class="lead sub-header">Or visit your local IEEE student branch for tickets today!</p>
-                    <p>(SITE 4026 uOttawa / T206B Algonquin College / ME4238 Carleton University)</p>
-                </div><!--/.center-->   
-                <div class="big-gap"></div>
-                <div id="pricing-table" class="row">
-
-                </div> 
-            </div> 
-        </div>
-    </section><!--/#patrons-->
-        <section id="patrons">
-        <div class="container">
-            <div class="box">
-                <div class="center">
-                    <div class="row">
-                        <h2 class="section-header">Our Patrons</h2>
-                        <p class="lead sub-header">SPAC would not be possible without the support of our patrons</p>
-                    </div>
-
-                    <div id="gold-patrons">
-                       <div class="row">
-                           <h3>Gold Patrons</h3>
-                           <div class="col-sm-4"><a href="#"><img src="sponsors/shopify.png" height="50"></a></div>
-                           <div class="col-sm-4"><a href="#"><img src="sponsors/ieee-ottawa-section.png" height="50"></a></div>
-                           <div class="col-sm-4"><a href="#"><img src="sponsors/carleton-fed.png" height="50"></a></div> 
-                        </div>
-                    </div>
-                    
-                    <div id="silver-patrons">
-                       <div class="row">
-                           <h3>Silver Patrons</h3>
-                           <div class="col-sm-4"><a href="#"><img src="sponsors/pythian.png" height="50"></a></div>
-                           <div class="col-sm-4"><a href="#"><img src="sponsors/fidus.png" height="60"></a></div>
-                           <div class="col-sm-4"><a href="#"><img src="sponsors/algonquin-logo.png" height="50"></a></div>
-                        </div>
-                        <div class="row">
-                           <div class="col-sm-6"><a href="#"><img src="sponsors/carleton-doe.png" height="50"></a></div>
-                           <div class="col-sm-6"><a href="#"><img src="sponsors/carleton-sce.png" height="50"></a></div>
-                        </div>
-                    </div>
-                    
-                    <div id="bronze-patrons">
-                       <div class="row">
-                          <h3>Bronze Patrons</h3>
-                          <div class="col-sm-4"><a href="#"><img src="sponsors/alcatel-lucent.png" height="50"></a></div>
-                          <div class="col-sm-4"><a href="#"><img src="sponsors/solana.png" height="50"></a></div>
-                          <div class="col-sm-4"><a href="#"><img src="sponsors/carleton-coop.png" height="50"></a></div> 
-                       </div>
-                       <div class="row">
-                          <div class="col-sm-6"><a href="#"><img src="sponsors/cusa.png" height="70"></a></div>
-                          <div class="col-sm-6"><a href="#"><img src="sponsors/gsa.png" height="70"></a></div>
-                       </div>
-                    </div>
-                </div><!--/.center-->   
-                <div class="big-gap"></div>
-                <div id="pricing-table" class="row">
-
-                </div> 
-            </div> 
-        </div>
-    </section><!--/#patrons-->
-
-    
-    <section id="contact">
-        <div class="container">
-            <div class="box last">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h1>Contact Form</h1>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                        <div class="status alert alert-success" style="display: none"></div>
-                        <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Email address">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-danger btn-lg">Send Message</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div><!--/.col-sm-6-->
-                    <div class="col-sm-6">
-                        <h1>Our Address</h1>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <address>
-                                    <strong>Twitter, Inc.</strong><br>
-                                    795 Folsom Ave, Suite 600<br>
-                                    San Francisco, CA 94107<br>
-                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                </address>
-                            </div>
-                            <div class="col-md-6">
-                                <address>
-                                    <strong>Twitter, Inc.</strong><br>
-                                    795 Folsom Ave, Suite 600<br>
-                                    San Francisco, CA 94107<br>
-                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                </address>
-                            </div>
-                        </div>
-                        <h1>Connect with us</h1>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <ul class="social">
-                                    <li><a href="#"><i class="icon-facebook icon-social"></i> Facebook</a></li>
-                                    <li><a href="#"><i class="icon-google-plus icon-social"></i> Google Plus</a></li>
-                                    <li><a href="#"><i class="icon-pinterest icon-social"></i> Pinterest</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <ul class="social">
-                                    <li><a href="#"><i class="icon-linkedin icon-social"></i> Linkedin</a></li>
-                                    <li><a href="#"><i class="icon-twitter icon-social"></i> Twitter</a></li>
-                                    <li><a href="#"><i class="icon-youtube icon-social"></i> Youtube</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div><!--/.col-sm-6-->
-                </div><!--/.row-->
-            </div><!--/.box-->
-        </div><!--/.container-->
-    </section><!--/#contact-->
-
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
-                </div>
-                <div class="col-sm-6">
-                    <img class="pull-right" src="images/shapebootstrap.png" alt="ShapeBootstrap" title="ShapeBootstrap">
-                </div>
+            <div class="modal-body">
+              <pre></pre>
             </div>
+          </div>
         </div>
-    </footer><!--/#footer-->
+      </div>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+
+            <ul class="list-unstyled">
+              <li class="pull-right"><a href="#top">Back to top</a></li>
+              <li><a href="http://news.bootswatch.com" onclick="pageTracker._link(this.href); return false;">Blog</a></li>
+              <li><a href="http://feeds.feedburner.com/bootswatch">RSS</a></li>
+              <li><a href="https://twitter.com/bootswatch">Twitter</a></li>
+              <li><a href="https://github.com/thomaspark/bootswatch/">GitHub</a></li>
+              <li><a href="../help/#api">API</a></li>
+              <li><a href="../help/#support">Support</a></li>
+            </ul>
+            <p>Made by <a href="http://thomaspark.co" rel="nofollow">Thomas Park</a>. Contact him at <a href="/cdn-cgi/l/email-protection#d2a6babdbfb3a192b0bdbda6a1a5b3a6b1bafcb1bdbf"><span class="__cf_email__" data-cfemail="97e3fff8faf6e4d7f5f8f8e3e4e0f6e3f4ffb9f4f8fa">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>.</p>
+            <p>Code released under the <a href="https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE">MIT License</a>.</p>
+            <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+
+          </div>
+        </div>
+
+      </footer>
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
+  <script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
 </body>
 </html>
