@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./font-awesome-4.4.0/css/font-awesome.min.css">
-    <script src="./javascript/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="./javascript/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="./javascript/bootstrap.min.js" charset="UTF-8"></script>
     <script type="text/javascript" src="./javascript/javascript.js" ></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -44,56 +45,28 @@
           </button>
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Themes <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="themes">
-                <li><a href="../default/">Default</a></li>
-                <li class="divider"></li>
-                <li><a href="../cerulean/">Cerulean</a></li>
-                <li><a href="../cosmo/">Cosmo</a></li>
-                <li><a href="../cyborg/">Cyborg</a></li>
-                <li><a href="../darkly/">Darkly</a></li>
-                <li><a href="../flatly/">Flatly</a></li>
-                <li><a href="../journal/">Journal</a></li>
-                <li><a href="../lumen/">Lumen</a></li>
-                <li><a href="../paper/">Paper</a></li>
-                <li><a href="../readable/">Readable</a></li>
-                <li><a href="../sandstone/">Sandstone</a></li>
-                <li><a href="../simplex/">Simplex</a></li>
-                <li><a href="../slate/">Slate</a></li>
-                <li><a href="../spacelab/">Spacelab</a></li>
-                <li><a href="../superhero/">Superhero</a></li>
-                <li><a href="../united/">United</a></li>
-                <li><a href="../yeti/">Yeti</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="../help/">Help</a>
-            </li>
-            <li>
-              <a href="http://news.bootswatch.com">Blog</a>
-            </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Flatly <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="download">
-                <li><a href="http://jsfiddle.net/bootswatch/jmg3gykg/">Open Sandbox</a></li>
-                <li class="divider"></li>
-                <li><a href="./bootstrap.min.css">bootstrap.min.css</a></li>
-                <li><a href="./bootstrap.css">bootstrap.css</a></li>
-                <li class="divider"></li>
-                <li><a href="./variables.less">variables.less</a></li>
-                <li><a href="./bootswatch.less">bootswatch.less</a></li>
-                <li class="divider"></li>
-                <li><a href="./_variables.scss">_variables.scss</a></li>
-                <li><a href="./_bootswatch.scss">_bootswatch.scss</a></li>
-              </ul>
-            </li>
-          </ul>
-
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
-            <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">WrapBootstrap</a></li>
+            <li>
+              <a href="#top">Info</a>  
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#speaker">Speakers</a>
+            </li>
+            <li>
+              <a href="#agenda">Agenda</a>
+            </li>
+            <li>
+              <a href="#tickets">Tickets</a>
+            </li>
+            <li>
+              <a href="#patrons">Patrons</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
 
         </div>
@@ -101,7 +74,7 @@
     </div>
 
     <!-- Cover -->
-    <div class="page-head" data-parallax="scroll" data-image-src="test.jpg">
+    <div class="page-head" data-parallax="scroll" data-image-src="test.jpg" id="top">
       <table class="header-logo">
           <tr>
              <td><img src="pictures/logos/Final/ieeeOttawaEditChapter.png" alt="chapter logo" id="logo"></img></td>
@@ -143,7 +116,7 @@
       <!-- about
       ================================================== -->
      
-     <div class="row section about">
+     <div class="row section" id="about">
          <h1 class="text-center">About</h1>
          <div class="col-lg-4 col-md-4 col-sm-4 text-center box-1">
              <p class="shadow">IEEE Student Professional Awareness Conference (SPAC) is a formal dinner event that aims to bridge the gap between students and their career goals. SPAC offers students and employers a unique opportunity to network with one another in a professional environment along with professionals and academics representing the field of Engineering.</p>
@@ -159,7 +132,7 @@
 
       <!-- speakers
       ================================================== -->
-      <div class="row section speaker">
+      <div class="row section" id="speaker">
          <h1 class="text-center">Speaker</h1>
          <div class="col-lg-6 col-md-6 col-sm-6 text-center speaker-box">
              <img class="shadow img-circle" src="./speaker/team1.jpg" alt="speaker 1"></img>
@@ -179,7 +152,7 @@
     <!-- Tickets
       ================================================== -->
      
-     <div class="row section tickets">
+     <div class="row section" id="tickets">
          <h1 class="text-center">Tickets</h1>
          <div class="col-lg-12 text-center">
              <h3>Visit your local IEEE student branch for tickets today!</h3>
@@ -187,11 +160,10 @@
          </div>
       </div>
       <hr></hr>
-
         
-      <!-- Tickets
+      <!-- Patrons
       ================================================== -->
-     <div class="patrons section">
+     <div class="section" id="patrons">
           <div class="row patron-header">
              <h1 class="text-center">Our Patrons</h1>
              <div class="col-lg-12 text-center">
@@ -250,28 +222,12 @@
                 <img src="./sponsors/gsa.png" alt="ieee-ottawa">
               </div>
           </div>
-      </div>
-      <hr></hr>
-      
-
-  
-
-      <div id="source-modal" class="modal fade">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title">Source Code</h4>
-            </div>
-            <div class="modal-body">
-              <pre></pre>
-            </div>
-          </div>
-        </div>
-      </div>
+      </div>     
+    </div>
 
       <footer>
-        <div class="row">
+          <div class="container">
+        <div class="row footer">
           <div class="col-lg-12">
 
             <ul class="list-unstyled">
@@ -290,12 +246,8 @@
 
           </div>
         </div>
-
+            </div>
       </footer>
-
-
-    </div>
-
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
